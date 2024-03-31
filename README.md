@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Events_App
+Advanced Event App with a ableity  to search , book, or make an event. The app will be created with Laravel and flutter frameworks. 

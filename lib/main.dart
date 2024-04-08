@@ -1,13 +1,13 @@
-import 'package:events_app/Util/Locale.dart';
-import 'package:events_app/Util/LocaleController.dart';
-import 'package:events_app/view/auth/otp_page.dart';
-import 'package:events_app/view/booking/main_booking_page.dart';
-import 'package:events_app/view/home/drawer.dart';
-import 'package:events_app/view/splash/splash_screen.dart';
+import 'package:events_app/common/Util/Locale.dart';
+import 'package:events_app/common/Util/LocaleController.dart';
+import 'package:events_app/common/view/auth/otp_page.dart';
+import 'package:events_app/User_App/view/booking/main_booking_page.dart';
+import 'package:events_app/User_App/view/home/drawer.dart';
+import 'package:events_app/common/view/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'core/constants/theme.dart';
+import 'common/core/constants/theme.dart';
 
 void main() {
   Get.put(LocalController()); // Initialize and put LocalController instance

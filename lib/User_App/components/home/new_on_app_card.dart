@@ -40,8 +40,8 @@ class NewOnAppCard extends StatelessWidget {
                   //THE content
                   Container(
                       padding: LanguageRadioController().selectedValue
-                          ? EdgeInsets.only(left: 10)
-                          : EdgeInsets.only(right: 10),
+                          ? const EdgeInsets.only(left: 10)
+                          : const EdgeInsets.only(right: 10),
                       child: Text(
                         "Zakaria Al-nabuilsi",
                         overflow: TextOverflow.ellipsis,

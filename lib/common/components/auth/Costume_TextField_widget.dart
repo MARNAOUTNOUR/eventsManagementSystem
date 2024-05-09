@@ -7,14 +7,14 @@ class CustomeTextFormField extends StatelessWidget {
     required this.hintText,
     required this.inputType,
     required this.title,
-    required this.controller,
-    required this.validator,
+    this.controller,
+    this.validator,
   }) : super(key: key);
 
   final String hintText;
   final String title;
   final TextInputType inputType;
-  final TextEditingController controller;
+  final TextEditingController? controller;
   final String? Function(String?)? validator;
 
   @override
